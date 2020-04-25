@@ -1,0 +1,158 @@
+*{
+         margin: 0px;
+         padding: 0px;
+         font-family: 'Josefin Sans', sans-serif;
+         }
+         .header {
+         overflow: hidden;
+         background-color: #f1f1f1;
+         padding: 20px 10px;
+         }
+         /* Style the header links */
+         .header a {
+         float: left;
+         color: black;
+         text-align: center;
+         padding: 12px;
+         text-decoration: none;
+         font-size: 18px; 
+         line-height: 25px;
+         border-radius: 4px;
+         }
+         /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+         .header a.logo {
+         font-size: 25px;
+         font-weight: bold;
+         }
+         /* Change the background color on mouse-over */
+         .header a:hover {
+         background-color: #ddd;
+         color: black;
+         }
+         /* Style the active/current link*/
+         .header a.active {
+         background-color: dodgerblue;
+         color: white;
+         }
+         /* Float the link section to the right */
+         .header-right {
+         float: right;
+         padding-right: 40px;
+         }
+         /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
+         @media screen and (max-width: 500px) {
+         .header a {
+         float: none;
+         display: block;
+         text-align: left;
+         }
+         .header-right {
+         float: none;
+         }
+         }
+         footer {
+         background: #061D25;
+         padding: 10px 0;
+         text-align: center;
+         }
+         footer a {
+         color: #70726F;
+         font-size: 20px;
+         padding: 10px;
+         border-right: 1px solid #70726F;
+         transition: all .5s ease;
+         }
+         footer a:first-child {
+         border-left: 1px solid #70726F;
+         }
+         footer a:hover {
+         color: white;
+         }
+         <!-- mid part-->
+         .container{
+         position: relative;
+         text-align: center;
+         color: white;
+         }
+         .top-left{
+         position: absolute;
+         top: 8px;
+         left: 16px;
+         margin-left: 10px;
+         margin-top: 20px;
+         }
+         .h1{
+         border-left: 4px solid red;
+         padding-left: 3px;
+         font-size: 50px;
+         }
+         p{
+         font-size: 20px;
+         }
+         <!-- end mid part -->
+         .colume{
+         float: left;
+         width: 50%;
+         }
+         .imgabout{
+         float: left;
+         margin-right: 30px; 
+         height: 170px;
+         width: 170px;
+         /*margin-top: 20px;*/
+         }
+      </style>
+      <style >
+.element{
+
+font-size: 100px
+
+}
+
+.typed-cursor{
+	color: white;
+    font-size: 100px
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    10% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    10% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    10% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+.typed,.typed-cursor{
+color: #333;
+font-size: 4rem;	
+}
+.heading{
+	font-size: 4rem;
+}
+.brick-container {
+  background-image: url("images/brick-bg.jpg");
+  padding: 8rem;
+}
+/*.about-container {
+  background-image: url("images/bright.jpg");
+  padding: 3rem;
+}*/
+.parallax {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

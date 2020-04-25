@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Portfolio</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+   <link href="css/bootstrap.min.css" rel="stylesheet" />
+   <link href="css/my-style.css" rel="stylesheet">
+   <style type="text/css">
+      ::-webkit-scrollbar{
+         width: 8px;
+      }
+      ::-webkit-scrollbar-track{
+         box-shadow: inset 0 0 5px gray;
+         
+      }
+      ::-webkit-scrollbar-thumb{
+         background: lightgray;
+
+      }
+      ::-webkit-scrollbar-thumb:hover{
+         background: gray;
+      }
+      /* Three image containers (use 25% for four, and 50% for two, etc) */
+      .column {
+       float: left;
+       width: 33.33%;
+       padding: 5px;
+    }
+
+    /* Clear floats after image containers */
+    .row::after {
+       content: "";
+       clear: both;
+       display: table;
+    }
+    .row {
+       display: flex;
+    }
+
+    .column {
+       flex: 33.33%;
+       padding: 5px;
+    }
+    @media screen and (max-width: 500px) {
+       .column {
+        width: 100%;
+     }
+  }
+  .btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+ }
+
+ .btn:hover {
+    opacity: 1;
+
+ </style>
+</head>
+<body>
+
+   <!-- header -->
+   <header id="header">
+     <div class="container-fluid">
+      <div id="logo" class="pull-left">
+       <h2><a href="" class="scrollto">Portfolio</a></h2>
+       <!-- please Uncomment below if you prefer to use an image logo -->
+       <!-- <a href="#intro"><img src="img/favicon.png" alt="" title="" /></a> -->
+    </div>
+
+    <!-- #nav-menu-container -->
+    <nav id="nav-menu-container">
+       <ul class="nav-menu list-unstyled">
+        <li class="menu-active"><a href="#home"><i class="fa fa-home fa-fw"  aria-hidden="true"></i> &nbsp;Home </a></li>
+        <li><a href="#about"><i class="fa fa-female" aria-hidden="true"></i> &nbsp;About </a></li>
+        <li><a href="#tskill"><i class="fa fa-building" aria-hidden="true"></i> &nbsp;Technical Skills </a></li>
+        <li><a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;Contact </a></li>
+        <li><a href="#certificate"><i class="fa fa-certificate" aria-hidden="true"></i> &nbsp;Achievments </a></li>
+     </ul>
+  </nav>
+  <!-- #nav-menu-container -->
+</div>
+</header>
+<!--Header end -->
+
+<!--start home  -->
+<section id="home">
+   <div class="container-fluid home-parallax parallax">
+      <div class="row h-100">
+         <div class="col-sm-12 px-0 h-100">
+            <div class="centered-caption w-100">
+               <div class="wrap text-center">
+                  <h1 style="color: red; font-size: 60px;">I'M<span> Manisha Malhotra </span></h1>
+                  <div class="type-wrap">
+                     <div id="typed-strings" class="text-white text-center" >
+                        <span class="text-white"> I am a <strong> Web-Designer </strong></span>
+                        <span class="text-white"> I am a <strong> Web-Developer </strong></span>
+                     </div>
+                     <span id="typed" class="typed"></span>
+                  </div>
+                   <div class="container text-center">
+      <a href="https://www.facebook.com/mani.malhotra.75054" style="font-size: 20px"><i class="fa fa-facebook"  ></i></a>
+      <a href="https://github.com/manishamalhotra135" style="padding-left: 10px; font-size: 20px"><i class="fa fa-github" ></i></a>
+      <a href="https://www.linkedin.com/in/manisha-malhotra-1985a2178" style="padding-left: 10px; font-size: 20px"><i class="fa fa-linkedin" ></i></a>
+      <!-- <a href="#"><i class="fa fa-google-plus"></i></a>
+       --><a href="#" style="padding-left: 10px; font-size: 20px"><i class="fa fa-skype" ></i></a>
+   </div>
+               </div>
+               <!-- <div class="justify-content-center icon-div">
+                 <ul class="list-unstyled justify-content-center">
+                    <li class="float-left" style="padding-left: 4px; font-size: 25px;" >
+                       <a href="#" class="text-blue"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li class="float-left" style="padding-left: 4px; font-size: 25px;">
+                       <a href="#" class="text-blue"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li class="float-left" style="padding-left: 4px; font-size: 25px; ">
+                       <a href="#" class="text-white" style="background-color: #56A5EC"><i class="fa fa-linkedin" ></i></a>
+                    </li>
+                    <li class="float-left" style="padding-left: 4px; font-size: 25px">
+                       <a href="#" class="text-jasper"><i class="fa fa-google-plus"></i></a>
+                    </li>
+                    <li class="float-left" style="padding-left: 4px; font-size: 25px; ">
+                       <a href="#" class="text-white" style="background-color: #56A5EC"><i class="fa fa-skype"></i></a>
+                    </li> 
+                 </ul>
+              </div> -->
+           </div>
+        </div>
+     </div>
+  </div>
+</section>
+<!--end home -->
+<!--start about  -->
+<section id="about">
+   <div class="container-fluid brick-parallax parallax">
+      <div class="row text-white">
+         <div class="col-sm-12">
+            <p class="text-center heading"> About me </p>
+            <div class="row justify-content-center">
+               <div class="col-sm-12">
+                  <div class="row">
+                     <div class="col-sm-6 text-center">
+                        <div class="img-about"></div>
+                     </div>
+                     <div class="col-sm-6">
+                        <div class="row">
+                           <div class="col-sm-12">
+                              <ul class="list-unstyled about-info">
+                                 <li>
+                                    <small> Name </small> : Manisha Malhotra
+                                 </li>
+                                 <li>
+                                    <small> Profile </small> : Full stack developer
+                                 </li>
+                                 <li>
+                                    <small> Email </small> : manimalhotra555@gmail.com
+                                 </li>
+                                 <li>
+                                    <small> Contact </small> : <a href="tel:+919045474774" class="text-white"> +919045474774 </a>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-12">
+                              <h4> Skill </h4>
+                              <span> HTML5 </span>
+                              <div class="progress w-75">
+                                 <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="85%" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%
+                                 </div>
+                              </div><br>
+                              <span> CSS3 </span>
+                              <div class="progress w-75">
+                                 <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80%" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%
+                                 </div>
+                              </div><br>
+                              <span> BOOTSTRAP 4 </span>
+                              <div class="progress w-75">
+                                 <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70%" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%
+                                 </div>
+                              </div><br>
+                              <span> PHP </span>
+                              <div class="progress w-75">
+                                 <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50%" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%
+                                 </div>
+                              </div>
+                              <br>
+                               <span> Laravel </span>
+                              <div class="progress w-75">
+                                 <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="85%" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40%
+                                 </div>
+                              </div><br>
+                               <span> Codeigniter </span>
+                              <div class="progress w-75">
+                                 <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="85%" aria-valuemin="0" aria-valuemax="100" style="width: 30%">30%
+                                 </div>
+                              </div><br>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-12 about-contant p-4">
+
+            <p class="text-justify" style="border-left: 4px solid red; padding-left: 4px "> My name is Manisha Malhotra. I achieved a Bacholor degree in Computer Apllication and Am currently doing my Master degree in Master in Computer Application. This website showcases a collection of my recent work. </p>
+
+            <p class="text-justify" style="border-left: 4px solid green; padding-left: 4px">
+            I am a chronic puzzle-seeker and a lifelong learner. I unpack complicated problems by approaching each with the flexible process and attention it deserves.</p>
+            <p class="text-justify" style="border-left: 4px solid blue; padding-left: 4px "> This means that i work with others to ask questions, define approaches and execute solution comprising : </p>
+            <ul>
+               <li type="none" style="border-left: 4px solid red; padding-left: 4px"> Strategy </li><br>
+               <li type="none" style="border-left: 4px solid green; padding-left: 4px"> Information Architechture </li><br>
+               <li type="none" style="border-left: 4px solid blue; padding-left: 4px"> User Experience & Interface </li>
+            </ul>
+
+            <p style="border-left: 4px solid red; padding-left: 4px"> Design </p>
+            <ul>
+               <ul>
+
+                  <li type="none" style="border-left: 4px solid green; padding-left: 4px"> Visual Design </li><br>
+                  <li type="none" style="border-left: 4px solid blue; padding-left: 4px"> Front-end & Back-end Web Development </li>
+
+               </ul>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--end about-->
+
+   <!--start team-->
+    <!--  <section id="tskill">
+         <div class="container-fluid team-parallax parallax">
+            <div class="row justify-content-center">
+               <div class="col-sm-12">
+                  <p class="text-center heading">Technical Skils</p>
+               </div>
+               <div class="col-sm-3">
+                  <div class="card img-fluid">
+                     <div class="img-box">
+                        <img class="card-img-top img-team" src="./images/a0fdcbc6-learners_1400920ih0920ar00001o.jpg" alt="Card image">
+                     </div>
+                     <div class="card-img-overlay">
+                        <div>
+                           <h4 class="card-title">John Doe</h4>
+                           <p class="card-text">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p>
+                           <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-sm-3 ml-2">
+                  <div class="card img-fluid">
+                     <div class="img-box">
+                        <img class="card-img-top img-team" src="./images/chicago.jpg" alt="Card image">
+                     </div>
+                     <div class="card-img-overlay">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-sm-3 ml-2">
+                  <div class="card img-fluid">
+                     <div class="img-box">
+                        <img class="card-img-top img-team " src="./images/ny.jpg" alt="Card image">
+                     </div>
+                     <div class="card-img-overlay">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>-->
+      <!--team end-->
+      <!--TSkills Start-->
+      <section id="tskill">
+        <div class="container-fluid tskill-parallax parallax">
+          <div class="container">
+            <div class="row text-white">
+              <div class="col-sm-12">
+                <p class="text-center heading"> Technical Skills </p>
+             </div>
+          </div>
+          <div class="row">
+           <div class="col-sm-3 mt-4">
+             <div class="card">
+               <img class="card-img-top" src="./images/skills/bootstrap.png" alt="Snow" width="200px" height="200px" title="Bootstrap">
+            </div>
+         </div>
+         <div class="col-sm-3 mt-4">
+             <div class="card">
+               <img class="card-img-top" src="./images/skills/css.jpeg" alt="Snow" width="200px" height="200px" title="css">
+            </div>
+         </div>
+         
+      <div class="col-sm-3 mt-4">
+       <div class="card">
+         <img class="card-img-top" src="./images/skills/sql.png" alt="Snow" width="200px" height="200px" title="SQL">
+      </div>
+   </div>
+   <div class="col-sm-3 mt-4">
+    <div class="card">
+      <img class="card-img-top" src="./images/skills/web-development.png" alt="Snow" width="200px" height="200px" title="Web-Development">
+   </div>
+</div>
+<div class="row">
+              <div class="col-sm-3 mt-4">
+              <div class="card">
+                <img class="card-img-top" src="./images/skills/html.jpeg" alt="Snow" width="200px" height="200px" title="html">
+             </div>
+          </div>
+          <div class="col-sm-3 mt-4">
+          <div class="card">
+            <img class="card-img-top" src="./images/skills/php.png" alt="Snow" width="200px" height="200px" title="Php">
+         </div>
+      </div>
+
+           <div class="col-sm-3 mt-4">
+             <div class="card">
+               <img class="card-img-top" src="./images/skills/laravel.png" alt="Snow" width="200px" height="200px" title="laravel">
+            </div>
+         </div>
+         <div class="col-sm-3 mt-4">
+          <div class="card">
+            <img class="card-img-top" src="./images/skills/codeigniter.jpeg" alt="Snow" width="200px" height="200px" title="codeigniter">
+         </div>
+      </div>
+     
+</div>
+</div>
+</div>
+</section>
+<!-- End TSkill Section-->
+<!--Certificate Start-->
+      <section id="certificate">
+        <div class="container-fluid brick-parallax parallax">
+          <div class="container">
+            <div class="row text-white">
+              <div class="col-sm-12">
+                <p class="text-center heading"> Achievments </p>
+             </div>
+          </div>
+          <div class="row">
+           <div class="col-sm-3 mt-4">
+             <div class="card">
+               <img class="card-img-top" src="./images/achievments/java.jpg" alt="Java" width="200px" height="200px" title="Java">
+            </div>
+         </div>
+          <div class="col-sm-3 mt-4">
+             <div class="card">
+               <img class="card-img-top" src="./images/achievments/c++.jpg" alt="c++" width="200px" height="200px" title="c++">
+            </div>
+         </div>
+          <div class="col-sm-3 mt-4">
+             <div class="card">
+               <img class="card-img-top" src="./images/achievments/csharp.jpg" alt="c#" width="200px" height="200px" title="c#">
+            </div>
+         </div>
+         
+   <div class="col-sm-3 mt-4">
+    <div class="card">
+      <img class="card-img-top" src="./images/achievments/csharp2.jpg" alt="c#2" width="200px" height="200px" title="c#2">
+   </div>
+</div>
+<div class="row">
+              <div class="col-sm-3 mt-4">
+              <div class="card">
+                <img class="card-img-top" src="./images/achievments/aptron.jpg" alt="aptron" width="200px" height="200px" title="aptron">
+             </div>
+          </div>
+          <div class="col-sm-3 mt-4">
+          <div class="card">
+            <img class="card-img-top" src="./images/achievments/arduino.jpg" alt="arduino" width="200px" height="200px" title="arduino">
+         </div>
+      </div>
+
+           <div class="col-sm-3 mt-4">
+             <div class="card">
+               <img class="card-img-top" src="./images/achievments/josh.jpg" alt="josh" width="200px" height="200px" title="josh">
+            </div>
+         </div>
+         <div class="col-sm-3 mt-4">
+          <div class="card">
+            <img class="card-img-top" src="./images/achievments/bca.jpg" alt="science" width="200px" height="200px" title="science">
+         </div>
+      </div>
+     
+</div>
+</div>
+</div>
+</section>
+<!-- End Certificate Section-->
+
+<!-- Contact section -->
+<section id="contact">
+   <div class="container-fluid">
+      <div class="row">
+         <div class="col-sm-6">
+            <p class="heading"> Get in touch </p>
+            <!-- <address><i class="fa fa-map-marker" aria-hidden="true" style="color: blue"></i> &nbsp;152, North Sarwat Gate Ansari Road </address> -->
+            <address><i class="fa fa-map-marker" aria-hidden="true" style="color: blue"></i> Muzaffarnagar, Uttar Pradesh India </address>
+            <address><i class="fa fa-phone" aria-hidden="true" style="color: blue"></i> &nbsp;+91 9045474774 </address>
+            <address><i class="fa fa-envelope-o" aria-hidden="true" style="color: blue"></i>
+            &nbsp;manimalhotra555@gmail.com </address>
+         </div>
+         <div class="col-sm-6">
+           <p class="text-center heading"> Want To Hier Me? </p>
+           <form role="form" action="contact.php" method="post">
+            <div class="form-group">
+               <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
+             </div>
+               
+               <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
+               </div>
+               <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+               </div>
+               <div class="form-group">
+                  <textarea  rows="4" class="form-control" name="message" id="message" placeholder="Message"></textarea> 
+               </div>
+               <div align="center">
+                  <input type="submit" class="btn btn-primary w-50 text-center"  name="send" style="border-radius: 15px;" placeholder="Send Message">
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+</section>
+<!--contect section end-->  
+<footer class="footer">
+   <div class="container text-center">
+      <a href="https://www.facebook.com/mani.malhotra.75054"><i class="fa fa-facebook" style="color: skyblue"></i></a>
+      <a href="https://github.com/manishamalhotra135"><i class="fa fa-github" style="color: skyblue"></i></a>
+      <a href="https://www.linkedin.com/in/manisha-malhotra-1985a2178"><i class="fa fa-linkedin" style="color: skyblue"></i></a>
+      <!-- <a href="#"><i class="fa fa-google-plus"></i></a>
+       --><a href="#"><i class="fa fa-skype" style="color: skyblue"></i></a>
+   </div>
+</footer>
+<!-- important script files-->
+<!-- <script src="js/jquery.min.js"></script> -->
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/jquery/jquery-migrate.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script> -->
+<!--       <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>                -->
+   <script src="lib/wow/wow.min.js"></script>
+   <script src="lib/superfish/hoverIntent.js"></script>
+   <script src="lib/superfish/superfish.min.js"></script>
+
+
+   <!--  -->
+   <!-- JavaScript Libraries -->
+   <script src="lib/jquery/jquery.min.js"></script>
+   <script src="lib/jquery/jquery-migrate.min.js"></script>
+   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="lib/easing/easing.min.js"></script>
+   <script src="lib/superfish/hoverIntent.js"></script>
+   <script src="lib/superfish/superfish.min.js"></script>
+   <script src="lib/wow/wow.min.js"></script>
+   <script src="lib/waypoints/waypoints.min.js"></script>
+   <script src="lib/counterup/counterup.min.js"></script>
+   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+   <script src="lib/isotope/isotope.pkgd.min.js"></script>
+   <script src="lib/lightbox/js/lightbox.min.js"></script>
+   <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+   <!-- JavaScript Libraries -->
+   <!--  -->
+
+   <script src="lib/type-js/typed.js" type="text/javascript"></script>
+   <script src="lib/type-js/custom-typed.js" type="text/javascript"></script>
+   <script src="js/main.js" type="text/javascript"></script>
+   <!-- important script files-->
+</body>
+</html>
